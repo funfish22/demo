@@ -1,14 +1,60 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "list": [
+    {
+      "id": 1,
+      "icon": "assets/img/ic-excel.svg",
+      "name": "Ad-benefit-august.csv",
+      "local": "my drive",
+      "time": "2019/8/20",
+      "size": "6 kb"
+    },
+    {
+      "id": 2,
+      "icon": "assets/img/ic-ppt.svg",
+      "name": "How To Pick A Right Web Font.pptx",
+      "local": "my drive",
+      "time": "2019/8/20",
+      "size": "32 mb"
+    },
+    {
+      "id": 3,
+      "icon": "assets/img/ic-pdf.svg",
+      "name": "Presentation-Q1.pdf",
+      "local": "my drive",
+      "time": "2019/8/20",
+      "size": "10 mb"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "folderArray": [
+    {
+      "id": 1,
+      "name": "advertisement",
+      "star": true
+    },
+    {
+      "id": 2,
+      "name": "business",
+      "star": false
+    },
+    {
+      "id": 3,
+      "name": "commercial",
+      "star": false
+    },
+    {
+      "id": 4,
+      "name": "customer",
+      "star": false
+    },
+    {
+      "id": 5,
+      "name": "facebook",
+      "star": false
+    },
+    {
+      "id": 6,
+      "name": "growth hacker",
+      "star": false
+    }
+  ]
 }
